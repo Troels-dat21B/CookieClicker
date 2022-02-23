@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CookieClicker</title>
+</head>
+<style>
+    .center {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+</style>
+<script>
+    var number = 0;
+    function testFunktion(){
+        number++;
+        document.getElementById("number").innerHTML = number
+    }
+</script>
+<p id="Clicks"></p>
+
+<body>
+
+<div class="center">
+    <button onclick="testFunktion()"><img src="https://mpng.subpng.com/20180329/qvw/kisspng-chocolate-chip-cookie-cupcake-fortune-cookie-oatme-cookie-5abd747c895034.6764662815223655645625.jpg" alt="Cookie"></button>
+    <p>Antal clicks: </p>
+    <span id="number"></span>
+</div>
+
+</body>
+</html>
